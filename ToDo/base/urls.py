@@ -14,4 +14,3 @@ urlpatterns = [
     path('task-delete/<int:pk>/', TaskDelete.as_view(), name="task-delete"),
 ]
 
-

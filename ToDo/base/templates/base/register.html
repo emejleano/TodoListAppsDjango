@@ -14,16 +14,21 @@
 
             <label>  {{ form.username.label }}  </label>
             {{form.username}}
-
+            <br>
+            <br>
             <label>  {{ form.password1.label }}  </label>
             {{form.password1}}
-
+            <br>
+            <br>
             <label>  {{ form.password2.label }}  </label>
             {{form.password2}}
-
+            <br>
             <input class="button" style="margin-top: 12px;" type="submit" value="Register">
         </form>
+        <br>
         <p>Already Have an Account? <a class="link" href="{% url 'login' %}">Login</a></p>
+
+        <h5><a href="{% url 'login' %}">&#8592; Back</a></h5>
     </div>
 
 
