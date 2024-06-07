@@ -42,7 +42,6 @@
                         <a href="{% url 'task-update' task.id %}">{{ task }}</a>
                     </div>
                     <div>
-                        <a class="complete-link" href="{% url 'task-complete' task.id %}"><i class="fas fa-check"></i></a>
                         <a class="delete-link" href="{% url 'task-delete' task.id %}">&#215;</a>
                     </div>
                 {% endif %}
